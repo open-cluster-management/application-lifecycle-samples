@@ -6,4 +6,3 @@ namespace: lars-sandbox
 resources:
   - deployment.yaml
   - pvc.yaml
-  - service.yaml
