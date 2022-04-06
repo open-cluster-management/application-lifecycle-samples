@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Mortgage-app-deploy
+  name: mortgage-app-deploy
   labels:
     app: mortgage-app-mortgage
 spec:
