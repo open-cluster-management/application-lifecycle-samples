@@ -1,0 +1,5 @@
+apiVersion: v2
+name: mortgage-fail-helm
+description: A sample failed mortgage helm chart
+version: 0.1.0
+appVersion: "1.16.0"
