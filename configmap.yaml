@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: perf-configmap-2
+  namespace: alc-ns
+  annotations:
+    test: "123"
+  labels:
+    test2: "abc"
+data:
+  path: resource44444
+  path2: "222222"
+  path3: "333333"
+  path4: "44"
+  path5: "55555"
+  path6: "6666"
