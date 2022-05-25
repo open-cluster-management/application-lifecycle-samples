@@ -3,7 +3,7 @@ entries:
   helloworld-helm:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.829942091-04:00"
+    created: "2022-05-25T16:01:15.3677413-04:00"
     description: A sample hello world helm chart
     digest: 049c7ca45d6219803c9c0e04d39b318e915c5edc3ccdb4a7da5b26534660d95c
     name: helloworld-helm
@@ -12,17 +12,28 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.829706505-04:00"
+    created: "2022-05-25T16:01:15.3677413-04:00"
     description: A sample hello world helm chart
     digest: 3e44b3b244b6a6a038eb99260bb767865d711cede962c1dbc003f62d26113779
     name: helloworld-helm
     urls:
     - https://raw.githubusercontent.com/stolostron/application-lifecycle-samples/main/helloworld-helm-0.1.0.tgz
     version: 0.1.0
+  keycloak-x-arm64:
+  - apiVersion: v2
+    appVersion: 15.0.1
+    created: "2022-05-25T16:01:15.368741-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 50eac53767227d119b9b543d17107b7a30833f7178337253d3d8ca940ea6eb11
+    name: keycloak-x-arm64
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/stolostron/application-lifecycle-samples/main/keycloak-x-arm64-0.1.3.tgz
+    version: 0.1.3
   mortgage:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.835576512-04:00"
+    created: "2022-05-25T16:01:15.3727414-04:00"
     description: A sample mortgage app
     digest: f139201a1263962f015c5da371f8f030defca064df64a7bf717ce0674e947db8
     name: mortgage
@@ -31,7 +42,7 @@ entries:
     version: 1.0.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.834992826-04:00"
+    created: "2022-05-25T16:01:15.3717412-04:00"
     description: A sample mortgage app
     digest: b6a97918b669d5c74062cff5eee5f618d8d16e1ae8df4e862658367133fac64c
     name: mortgage
@@ -40,7 +51,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.834718311-04:00"
+    created: "2022-05-25T16:01:15.3717412-04:00"
     description: A sample mortgage app
     digest: 7e8c9dc9edaa260b808d4dc114d3ca4a2139ddfc337f5278f9aafc7be6c0b773
     name: mortgage
@@ -49,7 +60,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.834400977-04:00"
+    created: "2022-05-25T16:01:15.3717412-04:00"
     description: A sample mortgage app
     digest: cd04f871a0969327e8b18859f5ac775ca2052f00d6024fd2b480bd589a2196fd
     name: mortgage
@@ -58,7 +69,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.834083462-04:00"
+    created: "2022-05-25T16:01:15.3717412-04:00"
     description: A sample mortgage app
     digest: ef4e97e5ff64c3a98b8a6dde2f2bfa22da94241b30d948bbb008abb352d89885
     name: mortgage
@@ -67,7 +78,7 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.833813922-04:00"
+    created: "2022-05-25T16:01:15.3707408-04:00"
     description: A ficticious mortgage app
     digest: 85c990c53dbf6dcb947bc5938a17b8e509737b9ea7fdbaacb2bbf665bb126986
     name: mortgage
@@ -76,7 +87,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.833533034-04:00"
+    created: "2022-05-25T16:01:15.3707408-04:00"
     description: A ficticious mortgage app
     digest: b32144b897ffa427087e9187cef5025f990d81d271b99495b28753a5054e2f00
     name: mortgage
@@ -85,7 +96,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.833155744-04:00"
+    created: "2022-05-25T16:01:15.3707408-04:00"
     description: A ficticious mortgage app
     digest: ef03a52feb4d6567dea3187df846d1beecbd73308c8b3d56d7d8afa9df9bfd50
     name: mortgage
@@ -94,7 +105,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.832841835-04:00"
+    created: "2022-05-25T16:01:15.3697408-04:00"
     description: A ficticious mortgage app
     digest: 7567b6fffc917e3b0de4899edc87e8b854539574c6e31d619abab25a536089ea
     name: mortgage
@@ -103,7 +114,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.832536644-04:00"
+    created: "2022-05-25T16:01:15.3697408-04:00"
     description: A ficticious mortgage app
     digest: 248b6c7a6941877e88ac5a678cfd334692b3670f691af47ec2ebc19a4031c72c
     name: mortgage
@@ -112,7 +123,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.832140514-04:00"
+    created: "2022-05-25T16:01:15.3697408-04:00"
     description: A ficticious mortgage app
     digest: f8a557c4e50a02ff4ace79ad7bd72126f45f1216f93319e50fd4f05e63602302
     name: mortgage
@@ -121,7 +132,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.831019776-04:00"
+    created: "2022-05-25T16:01:15.3697408-04:00"
     description: A ficticious mortgage app
     digest: e75775843024b52ce3c23b8b2acf0cf8ee224ab4f2db3f435598c41edf3e87b0
     name: mortgage
@@ -130,7 +141,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.83022563-04:00"
+    created: "2022-05-25T16:01:15.368741-04:00"
     description: A ficticious mortgage app
     digest: 5ea5715d600dffd406e36e340ed896eda8fe0f6d87381c3c9aea9fc49307aad1
     name: mortgage
@@ -140,7 +151,7 @@ entries:
   mortgage-channel:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-04-06T22:15:18.835836554-04:00"
+    created: "2022-05-25T16:01:15.3727414-04:00"
     description: A sample mortgage channel
     digest: be7acc104eae8fff0bd64b102e73abc95cf2fdfafbfb3750081f469edc0e2158
     name: mortgage-channel
@@ -150,7 +161,7 @@ entries:
   mortgage-fail-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-04-06T22:15:18.83599091-04:00"
+    created: "2022-05-25T16:01:15.3727414-04:00"
     description: A sample failed mortgage helm chart
     digest: a65603b4a6244f058efa6491311b0981d1479e8faf41e1a98acd92a0744d682a
     name: mortgage-fail-helm
@@ -160,11 +171,11 @@ entries:
   mortgage-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-04-06T22:15:18.836155213-04:00"
+    created: "2022-05-25T16:01:15.3727414-04:00"
     description: A sample mortgage helm chart
     digest: fb16b2f497a411398eea28d56cf3e7e041f9beecb91fde3cbc3e00d6610ed170
     name: mortgage-helm
     urls:
     - https://raw.githubusercontent.com/stolostron/application-lifecycle-samples/main/mortgage-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-06T22:15:18.829295265-04:00"
+generated: "2022-05-25T16:01:15.3667407-04:00"
