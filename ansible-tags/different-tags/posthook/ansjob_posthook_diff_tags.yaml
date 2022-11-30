@@ -1,0 +1,11 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: posthook_diff_tags
+  namespace: default
+spec:
+  job_template_name: Ansible Tags Job Template
+  tower_auth_secret: ansible-tower-secret
+  job_tags: hello
+  skip_tags: goodbye
