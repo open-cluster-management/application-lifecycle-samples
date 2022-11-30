@@ -7,5 +7,5 @@ metadata:
 spec:
   job_template_name: Ansible Tags Job Template
   tower_auth_secret: toweraccess
-  job_tags: hello
-  skip_tags: goodbye
+  job_tags: goodbye
+  skip_tags: hello
