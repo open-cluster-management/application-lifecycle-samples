@@ -5,7 +5,7 @@ metadata:
   name: posthook-tags-test
   namespace: default
 spec:
-  job_template_name: Demo Job Template
+  job_template_name: Ansible Tags Job Template
   tower_auth_secret: toweraccess
   job_tags: hello
   skip_tags: goodbye
