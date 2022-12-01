@@ -1,0 +1,10 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: posthook-multiple-skip-tags-test
+  namespace: default
+spec:
+  job_template_name: Ansible Tags Multiple Skip Job Template
+  tower_auth_secret: toweraccess
+  skip_tags: question, goodbye
