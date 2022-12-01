@@ -2,7 +2,7 @@
 apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
-  name: posthook-one-job_tag-test
+  name: posthook-one-job-tag-test
   namespace: default
 spec:
   job_template_name: Ansible Tags One No Tag Job Template
