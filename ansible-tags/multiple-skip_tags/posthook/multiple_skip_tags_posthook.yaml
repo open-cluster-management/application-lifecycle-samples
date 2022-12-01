@@ -5,6 +5,6 @@ metadata:
   name: posthook-multiple-skip-tags-test
   namespace: default
 spec:
-  job_template_name: Ansible Tags Multiple Skip Job Template
+  job_template_name: Ansible Tags Multiple Tags Job Template 1
   tower_auth_secret: toweraccess
   skip_tags: question, goodbye
