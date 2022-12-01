@@ -1,0 +1,10 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: posthook-multiple-job-tags-test
+  namespace: default
+spec:
+  job_template_name: Ansible Tags Multiple Tags Job Template 2
+  tower_auth_secret: toweraccess
+  job_tags: hello, question

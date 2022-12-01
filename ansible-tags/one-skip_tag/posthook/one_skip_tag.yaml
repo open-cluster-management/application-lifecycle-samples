@@ -1,0 +1,10 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: posthook-one-skip-tag-test
+  namespace: default
+spec:
+  job_template_name: Ansible Tags One No Tag Job Template
+  tower_auth_secret: toweraccess
+  skip_tags: question
