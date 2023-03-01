@@ -3,8 +3,6 @@ kind: PlacementRule
 metadata:
   name: helloworld-app-placement
   namespace: default
-  labels:
-    app: helloworld-app
 spec:
   clusterReplicas: 1
   clusterSelector:
