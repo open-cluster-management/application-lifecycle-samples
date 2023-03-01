@@ -1,0 +1,21 @@
+---
+- name: Hello Tags
+  hosts: all
+
+  tasks:
+
+  - name: Hello
+    debug:
+      msg: "Hey everybody!"
+
+  - name: Question
+    debug:
+      msg: "How are you?"
+    tags:
+    - question
+
+  - name: Goodbye
+    debug:
+      msg: "Bye bye!"
+    tags:
+    - goodbye
