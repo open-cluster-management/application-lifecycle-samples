@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: helloworld-app-deploy
+  name: helloworld-app-deploy-test
   labels:
-    app: helloworld-app
+    app: helloworld-app-test
 spec:
   selector:
     matchLabels:
-      app: helloworld-app
+      app: helloworld-app-test
   replicas: 1
   template:
     metadata:
       labels:
-        app: helloworld-app
+        app: helloworld-app-test
     spec:
       containers:
-      - name: helloworld-app-container
-        image: "quay.io/fxiang1/helloworld:0.0.1-fake"
+      - name: helloworld-app-test
+        image: "quay.io/aaa/aaa/aaaa"
         imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 3002
