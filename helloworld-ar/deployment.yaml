@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: Deploymet
 metadata:
   name: helloworld-app-deploy-test
   labels:
@@ -19,7 +19,7 @@ spec:
         image: "quay.io/aaa/aaa/aaaa"
         imagePullPolicy: IfNotPresent
         ports:
-          - containerPort: 302
+          - containerPort: 3002
         env:
           - name: "PORT"
             value: "3002"
