@@ -10,7 +10,6 @@ metadata:
   labels:
     app.kubernetes.io/instance: guestbook-default
   name: guestbook-ui
-  namespace: default
   resourceVersion: "13660"
   selfLink: /apis/apps/v1/namespaces/default/deployments/guestbook-ui
   uid: bb9af0c7-8a44-11e8-9e23-42010aa80010
