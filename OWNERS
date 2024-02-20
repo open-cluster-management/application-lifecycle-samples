@@ -4,6 +4,8 @@ approvers:
   - ruici-h
   - philipwu08
   - dtthuynh
+  - fmt47
+  - atifshafi
 reviewers:
   - fxiang1
   - chenz4027
@@ -13,3 +15,5 @@ reviewers:
   - ruici-h
   - philipwu08 
   - dtthuynh
+  - fmt47
+  - atifshafi
