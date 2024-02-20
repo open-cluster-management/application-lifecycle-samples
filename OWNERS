@@ -1,13 +1,19 @@
 approvers:
   - rokej 
   - xiangjingli 
-  - ruici-hong
-  - philipwu08 
+  - ruici-h
+  - philipwu08
+  - dtthuynh
+  - fmt47
+  - atifshafi
 reviewers:
   - fxiang1
   - chenz4027
   - mikeshng
   - rokej 
   - xiangjingli 
-  - ruici-hong
+  - ruici-h
   - philipwu08 
+  - dtthuynh
+  - fmt47
+  - atifshafi
