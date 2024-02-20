@@ -1,0 +1,16 @@
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: prehook-test-1-8329197
+  namespace: ansible-scale-1000
+spec:
+  extra_vars:
+    target_clusters:
+    - cluster-1
+    - cluster-10
+    - cluster-100
+  job_template_name: Demo Job Template
+  tower_auth_secret: ansible-fake
+status:
+  ansibleJobResult:
+    status: successful
